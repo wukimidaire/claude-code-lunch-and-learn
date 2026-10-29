@@ -1,4 +1,4 @@
-# 01 — Metaskills: turn a repeated workflow into a skill (15 min)
+# 01 — Metaskills: turn a repeated workflow into a skill (20 min)
 
 ## Prerequisites
 
@@ -15,10 +15,10 @@ A reusable skill in `.claude/skills/<your-skill>/SKILL.md` — written *with* Cl
 | Min | Step | What to type |
 |---|---|---|
 | 0–3 | **Find the real problem** | `/problem-statement I spend too much time on <your workflow>` — confirm or correct the problem it distills |
-| 3–8 | **Get interviewed** | `/interview` — answer honestly. Claude digs for inputs, outputs, edge cases, what "good" looks like |
-| 8–12 | **Create the skill** | `/skill-creator` — it turns the interview into `.claude/skills/<name>/SKILL.md` |
-| 12–14 | **Test it** | Start a fresh conversation (`/clear`), then trigger your skill with a real example |
-| 14–15 | **Audit it** | `/skill-audit <name>` — fix the top finding |
+| 3–9 | **Get interviewed** | `/interview` — answer honestly. Claude digs for inputs, outputs, edge cases, what "good" looks like |
+| 9–14 | **Create the skill** | `/skill-creator` — it turns the interview into `.claude/skills/<name>/SKILL.md` |
+| 14–18 | **Test it** | Start a fresh conversation (`/clear`), then trigger your skill with a real example |
+| 18–20 | **Audit it** | `/skill-audit <name>` — fix the top finding |
 
 ## Verification
 

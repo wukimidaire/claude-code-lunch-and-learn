@@ -9,8 +9,9 @@
 
 | Time | Block | Material |
 |---|---|---|
-| 12:00 – 12:30 | Keynote — context (live only) | — |
-| 12:30 – 12:50 | Exercise 1 — **Metaskills**: turn a repeated workflow into a skill | [00 Setup](workbooks/00-setup.md) · [01 Metaskills](workbooks/01-metaskills.md) |
+| 12:00 – 12:20 | Keynote — context (live only) | — |
+| 12:20 – 12:30 | Setup — install, clone, trust the folder, install rea | [00 Setup](workbooks/00-setup.md) |
+| 12:30 – 12:50 | Exercise 1 — **Metaskills**: turn a repeated workflow into a skill | [01 Metaskills](workbooks/01-metaskills.md) |
 | 12:50 – 13:10 | Exercise 2 — **Book-to-skill**: turn a book into a queryable expert | [02 Book-to-skill](workbooks/02-book-to-skill.md) |
 | 13:10 – 13:30 | Exercise 3 — **Reverse anything**: rebuild a feature from scratch | [03 Reverse anything](workbooks/03-reverse-anything.md) |
 | 13:30 – 14:00 | Systems thinking — Claude Code as the gateway to your digital twin | [Slides](presentation/system-thinking/index.html) · [Notes](presentation/system-thinking/source-notes.md) |
