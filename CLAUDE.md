@@ -11,8 +11,8 @@ This is a public workshop repository. You are helping participants complete thre
 
 ## Exercise flow
 
-0. `workbooks/00-setup.md` — check skills, Python, Node, the rea plugin
-1. `workbooks/01-metaskills.md` — /problem-statement → /interview → /skill-creator → /skill-audit
+0. `workbooks/00-setup.md` — install tools, clone, trust folder, install rea, verify. If a participant is stuck on setup, walk them through it step by step and run the checks for them
+1. `workbooks/01-metaskills.md` — all 6 metaskills in a chain: /problem-statement → /problem-solution → /compare-options → /interview → /skill-creator → /skill-audit
 2. `workbooks/02-book-to-skill.md` — /book-to-skill on `books/` or their own book
 3. `workbooks/03-reverse-anything.md` — rea + metaskills → rebuild a feature from scratch in `builds/<name>/`
 
