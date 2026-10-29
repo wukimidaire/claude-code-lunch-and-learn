@@ -5,7 +5,7 @@ ROOT = pathlib.Path(__file__).resolve().parent.parent
 SKILLS = ["interview", "problem-statement", "problem-solution", "compare-options",
           "skill-creator", "skill-audit", "book-to-skill"]
 PRIVATE = re.compile(r"\b(?:azumuta|aikido|conveo|cuez|arplama|otiv|volta|kappa|eagl|victor|/Users/|"
-                     r"client_projects|hermes|sk-ant-|ghp_|service_role|keynote\.pptx)", re.I)
+                     r"client_projects|sk-ant-|ghp_|service_role|keynote\.pptx)", re.I)
 VENDORED = {"book-to-skill", "books"}  # third-party upstream content, scanned only for secrets
 TEXT = {".md", ".html", ".json", ".yaml", ".yml", ".txt", ".py"}
 errors = []
@@ -37,6 +37,14 @@ for wb in ["00-setup", "01-metaskills", "02-book-to-skill", "03-reverse-anything
 deck = ROOT / "presentation/system-thinking/index.html"
 if not deck.exists() or deck.read_text().count('<section class="slide') < 14:
     errors.append("slide deck missing or < 14 slides")
+deck_text = deck.read_text() if deck.exists() else ""
+if "Hermes" not in deck_text or "agent operating system" not in deck_text.lower():
+    errors.append("deck has no Hermes agent-OS slide")
+opener = ROOT / "scripts/open_presentation.py"
+if not opener.exists():
+    errors.append("missing scripts/open_presentation.py")
+if "scripts/open_presentation.py" not in (ROOT / "workbooks/03-reverse-anything.md").read_text():
+    errors.append("WB03 does not run the presentation opener")
 if not list((ROOT / "books").glob("*.txt")):
     errors.append("no sample book")
 

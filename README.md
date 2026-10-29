@@ -40,7 +40,8 @@ Start Claude Code in that folder, **trust the folder**, and accept the **rea** p
 | `workbooks/` | The three exercises (+ setup) |
 | `books/` | A public-domain book for exercise 2 (Sun Tzu, *The Art of War*, Project Gutenberg) |
 | `builds/` | Your exercise-3 builds (git-ignored) |
-| `presentation/system-thinking/` | Closing presentation — open `index.html` in a browser, use ← → |
+| `presentation/system-thinking/` | Closing presentation (open it with `python3 scripts/open_presentation.py`, then use ← →) |
+| `scripts/open_presentation.py` | Opens the presentation in your browser |
 
 ### Skills
 
@@ -60,4 +61,5 @@ Start Claude Code in that folder, **trust the folder**, and accept the **rea** p
 - **book-to-skill** — [virgiliojr94/book-to-skill](https://github.com/virgiliojr94/book-to-skill), MIT (see `.claude/skills/book-to-skill/LICENSE.md`). Vendored unchanged.
 - **rea** — [morluto/rea](https://github.com/morluto/rea), MIT. Installed as a plugin, not vendored.
 - **The Art of War** — Project Gutenberg eBook #132, public domain in the US.
+- **Hermes Agent**: [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent), MIT. Referenced in the presentation as the agent operating system to build toward.
 - Systems-thinking presentation draws on *"How To Think SO Clearly People Assume You're Brilliant"* by Sandeep Swadia (theMITmonk) — [watch it](https://www.youtube.com/watch?v=mjTgkm-h__M).
