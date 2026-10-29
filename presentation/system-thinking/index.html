@@ -58,7 +58,7 @@
 <section class="slide">
   <div class="kicker">Claude Code Advanced · Lunch &amp; Learn</div>
   <h1>Systems thinking:<br>Claude Code is the gateway to your company's <em>digital twin</em></h1>
-  <p class="muted">Skills · builder · memory · data · APIs · money</p>
+  <p class="muted">Skills · builder · memory · data · APIs · money → your agent operating system</p>
 </section>
 
 <!-- 2 -->
@@ -158,6 +158,60 @@
   <p class="big" style="margin-top:1em">Parts → connections → patterns. That's systems thinking <em>and</em> it's the build order.</p>
 </section>
 
+<!-- 7b: assets -->
+<section class="slide">
+  <div class="kicker">All our assets, one system</div>
+  <h2>Every tool today is a part. The goal decides how they connect.</h2>
+  <div class="grid">
+    <div class="card"><span class="tag">Know-how</span><h3>Metaskills</h3><p>Turn how you work into skills: diagnose, decide, build, audit.</p></div>
+    <div class="card"><span class="tag">Expertise</span><h3>Book skills</h3><p>Borrow frameworks from the best books, on demand.</p></div>
+    <div class="card"><span class="tag">Learning</span><h3>rea</h3><p>Reverse-engineer existing systems and learn how they really work.</p></div>
+    <div class="card"><span class="tag">Builder</span><h3>Claude Code</h3><p>Turns intent into skills, scripts, tables and integrations.</p></div>
+    <div class="card"><span class="tag">Memory</span><h3>Supabase</h3><p>The database: customers, deals, events, what's true right now.</p></div>
+    <div class="card"><span class="tag">Signals</span><h3>Data</h3><p>CRM, meetings, ads, website: what happened and what's changing.</p></div>
+    <div class="card"><span class="tag">Senses + hands</span><h3>APIs and MCP</h3><p>Read from and act in the tools your company already uses.</p></div>
+    <div class="card" style="border-color:var(--accent)"><span class="tag">The goal</span><h3>Business model</h3><p>The money loop every other part exists to serve.</p></div>
+  </div>
+</section>
+
+<!-- 7c: Hermes -->
+<section class="slide">
+  <div class="kicker">The final goal</div>
+  <h2>Your agent operating system: <em>Hermes</em></h2>
+  <svg viewBox="0 0 760 330" role="img" aria-label="Claude Code builds; Hermes runs on top of the company's memory, data and APIs; signals feed back">
+    <defs><marker id="h" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10z" class="f-acc"/></marker></defs>
+    <g font-size="15">
+      <rect class="f-card" x="10" y="10" width="300" height="150" rx="12" style="stroke:var(--accent2);stroke-width:2"/>
+      <text x="30" y="40" font-weight="700" font-size="17">BUILD · Claude Code</text>
+      <text x="30" y="70" style="fill:var(--muted)">you + metaskills + book skills + rea</text>
+      <text x="30" y="98">→ skills, scripts, tables,</text>
+      <text x="30" y="122">integrations, automations</text>
+      <text x="30" y="146" style="fill:var(--muted)">in your editor, when you need it</text>
+
+      <path class="s-acc" d="M315 85 H 440" stroke-width="3" marker-end="url(#h)"/>
+      <text x="378" y="74" text-anchor="middle" font-size="13" style="fill:var(--muted)">ships to</text>
+
+      <rect class="f-card" x="450" y="10" width="300" height="150" rx="12" style="stroke:var(--accent);stroke-width:2"/>
+      <text x="470" y="40" font-weight="700" font-size="17">RUN · Hermes Agent</text>
+      <text x="470" y="70">always on, on a server</text>
+      <text x="470" y="94">talk to it in Slack or Telegram</text>
+      <text x="470" y="118">scheduled jobs, memory, any model</text>
+      <text x="470" y="142">improves its own skills with use</text>
+
+      <rect class="f-card" x="10" y="205" width="740" height="60" rx="12"/>
+      <text x="380" y="241" text-anchor="middle" font-weight="600">Your company: Supabase (memory) · data (signals) · APIs (senses + hands)</text>
+
+      <path class="s-acc" d="M600 165 V 200" stroke-width="3" marker-end="url(#h)"/>
+      <path class="s-acc" d="M160 200 V 165" stroke-width="3" marker-end="url(#h)" stroke-dasharray="6 5"/>
+      <text x="170" y="190" font-size="13" style="fill:var(--muted)">signals + feedback</text>
+      <text x="610" y="190" font-size="13" style="fill:var(--muted)">reads + acts</text>
+      <text x="380" y="300" text-anchor="middle" font-size="16" font-weight="700" style="fill:var(--accent)">→ drives the money loop: acquire · deliver · retain · expand</text>
+    </g>
+  </svg>
+  <p>Claude Code is where you <em>build</em> the twin. Hermes is where it <em>runs</em>, every day, without you at the keyboard.
+  <span class="muted">Open source, MIT, by Nous Research: github.com/NousResearch/hermes-agent</span></p>
+</section>
+
 <!-- 8 -->
 <section class="slide">
   <div class="kicker">Know which system you're in</div>
@@ -239,16 +293,17 @@
 <!-- 15 -->
 <section class="slide">
   <div class="kicker">The build order</div>
-  <h2>From a single skill to a digital twin</h2>
+  <h2>From a single skill to an agent operating system</h2>
   <svg viewBox="0 0 760 120" role="img" aria-label="Four steps from skill to digital twin">
     <g font-size="15" text-anchor="middle">
-      <rect class="f-card" x="5" y="25" width="170" height="70" rx="10"/><text x="90" y="55" font-weight="700">1 · Skills</text><text x="90" y="78" style="fill:var(--muted)">capture know-how</text>
-      <rect class="f-card" x="200" y="25" width="170" height="70" rx="10"/><text x="285" y="55" font-weight="700">2 · APIs</text><text x="285" y="78" style="fill:var(--muted)">connect the tools</text>
-      <rect class="f-card" x="395" y="25" width="170" height="70" rx="10"/><text x="480" y="55" font-weight="700">3 · Database</text><text x="480" y="78" style="fill:var(--muted)">remember state</text>
-      <rect class="f-card" x="590" y="25" width="165" height="70" rx="10" style="stroke:var(--accent)"/><text x="672" y="55" font-weight="700">4 · Loop</text><text x="672" y="78" style="fill:var(--muted)">see the money flow</text>
+      <rect class="f-card" x="5" y="25" width="140" height="70" rx="10"/><text x="75" y="55" font-weight="700">1 · Skills</text><text x="75" y="78" style="fill:var(--muted)">capture know-how</text>
+      <rect class="f-card" x="158" y="25" width="140" height="70" rx="10"/><text x="228" y="55" font-weight="700">2 · APIs</text><text x="228" y="78" style="fill:var(--muted)">connect tools</text>
+      <rect class="f-card" x="311" y="25" width="140" height="70" rx="10"/><text x="381" y="55" font-weight="700">3 · Database</text><text x="381" y="78" style="fill:var(--muted)">remember state</text>
+      <rect class="f-card" x="464" y="25" width="140" height="70" rx="10"/><text x="534" y="55" font-weight="700">4 · Loop</text><text x="534" y="78" style="fill:var(--muted)">see money flow</text>
+      <rect class="f-card" x="617" y="25" width="140" height="70" rx="10" style="stroke:var(--accent)"/><text x="687" y="55" font-weight="700">5 · Hermes</text><text x="687" y="78" style="fill:var(--muted)">runs it 24/7</text>
     </g>
   </svg>
-  <p>You don't need all four layers to start. Today you built layer 1. Each layer makes more of your company visible.</p>
+  <p>You don't need every layer to start. Today you built layer 1. Each layer makes more of your company visible, and Hermes is where it all runs on its own.</p>
 </section>
 
 <!-- 16 -->
@@ -260,13 +315,14 @@
     <li>Convert <em>one book</em> that shaped how your team works (<code>/book-to-skill</code>).</li>
     <li>Reverse <em>one tool</em> you pay for and only use 10% of.</li>
     <li>Sketch your company's money loop: which parts are invisible today?</li>
+    <li>Install <em>Hermes Agent</em> and give it your best skill from today: <code>hermes-agent.nousresearch.com</code></li>
   </ol>
 </section>
 
 <!-- 17 -->
 <section class="slide">
   <div class="kicker">Thank you</div>
-  <h1>Your company already is a system.<br>Now make it <em>visible</em>.</h1>
+  <h1>Your company already is a system.<br>Make it <em>visible</em>, then make it <em>run</em>.</h1>
   <p class="muted">Repo: github.com/wukimidaire/claude-code-lunch-and-learn<br>
   Inspired by Sandeep Swadia (theMITmonk), “How To Think SO Clearly People Assume You're Brilliant”. See source-notes.md.</p>
 </section>

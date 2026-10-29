@@ -25,7 +25,8 @@ plus a skill that captures the pattern so you can do it again.
 | 3–10 | **Reverse it with evidence** | "Use rea to analyse how `<feature>` works in `<target>`. Show me the evidence (files, requests, functions) and the limitations." |
 | 10–12 | **Capture the pattern** | `/skill-creator` — "make a skill that explains this pattern and how to build it" |
 | 12–19 | **Build it from scratch** | "Using what we learned, build a minimal working version in `builds/<name>/`. Plain HTML/JS or Python. Tell me how to run it." |
-| 19–20 | **Run it** | Open it / run it. Show your neighbour. |
+| 18–19 | **Run it** | Open it / run it. Show your neighbour. |
+| 19–20 | **Open the closing presentation** | In the terminal: `python3 scripts/open_presentation.py` (Windows: `python scripts\open_presentation.py`). Or ask Claude: *"run scripts/open_presentation.py"* |
 
 ### Prompt ideas
 
@@ -54,4 +55,10 @@ visible — the core move of systems thinking. Then Claude Code turns understand
 - rea: <https://github.com/morluto/rea> — `rea update` keeps it current
 - Do this on one internal tool your team pays for but only uses 10% of
 
-➡️ Next: the systems-thinking presentation — [slides](../presentation/system-thinking/index.html)
+➡️ Next: the systems-thinking presentation. Open it with
+
+```bash
+python3 scripts/open_presentation.py
+```
+
+(or open [the slides](../presentation/system-thinking/index.html) directly)
